@@ -18,6 +18,8 @@ body{
 }
 
 header {
+    position: fixed;
+    min-width: 100vw;
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -43,7 +45,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 nav ul li{
