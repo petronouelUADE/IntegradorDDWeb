@@ -27,7 +27,22 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main >
+      <h1>Contacto</h1>
+      <section class="contact-container">
+      <div class="contact-image">
+        <img class="dragon-icon-filtered" src="images/dragon-solid.svg" alt="Dragon Logo" >
+      </div>
+      
+      <form class="contact-form" action="/submit" method="POST">
+        <input type="text" name="name" placeholder="Nombres" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phone" placeholder="Numero de Telefono" required>
+        <textarea name="message" placeholder="Escribe acá el asunto por el que nos contactas" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      </section>
+    </main>
     <footer>
       <div>
         <a
