@@ -37,8 +37,13 @@ body {
 
 main {
   min-height: 95vh;
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
+
+h1{
+  text-align: center;
+  }
+
 
 /* Header */
 
@@ -187,7 +192,7 @@ footer div a i {
 
   main{
     min-height: 95vh;
-    padding-top: 16rem;
+    padding-top:9rem;
   }
   header {
     flex-direction: column;
